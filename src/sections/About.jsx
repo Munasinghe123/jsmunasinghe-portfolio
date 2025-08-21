@@ -260,7 +260,7 @@ export default function About() {
               className="
                 sticky 
                 top-16 md:top-20
-                h-[calc(100vh_+_12rem)] md:h-[calc(100vh_+_47rem)]
+                 [height:calc(100dvh_+_12rem)] md:[height:calc(100dvh_+_47rem)]
                 w-[4px]
                 bg-white/10
                 rounded-full
