@@ -76,8 +76,5 @@ const footerIconsList = [
 
 export {
   navItems,
-  iconsList,
-  slides,
-  testimonials,
   footerIconsList,
 };
