@@ -4,7 +4,11 @@ import { Text3D } from "@react-three/drei";
 
 import { Jbro } from './Jbro'
 
+const withBase = (p) => `${import.meta.env.BASE_URL}${p.replace(/^\/+/, "")}`;
+
 const ContactExperience = () => {
+
+  const fontUrl = withBase("fonts/Inter_Bold.json");
   return (
     <Canvas camera={{ position: [0, 0, 5] }}>
       <ambientLight intensity={2} />
@@ -21,7 +25,7 @@ const ContactExperience = () => {
           lineHeight={0.5}
           letterSpacing={-0.05}
           size={1.5}
-          font={"/fonts/Inter_Bold.json"}>
+          font={fontUrl}>
           {`Hello`}
           <meshNormalMaterial />
         </Text3D>
