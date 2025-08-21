@@ -255,7 +255,7 @@ export default function About() {
         <div ref={wrapRef} className="relative md:mt-20 mt-10">
           {/* Center sticky progress bar as an absolute overlay (no layout push) */}
           {/* Center sticky progress bar as an absolute overlay (no layout push) */}
-          <div className="hidden md:block pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 h-full">
+        <div className="hidden md:block pointer-events-none absolute left-1/2 top-0 bottom-0 -translate-x-1/2">
            <div className="sticky top-16 md:top-20 h-rail w-[4px] bg-white/10 rounded-full overflow-hidden" >
 
 
