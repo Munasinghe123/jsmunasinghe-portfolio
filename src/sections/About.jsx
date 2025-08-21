@@ -256,17 +256,8 @@ export default function About() {
           {/* Center sticky progress bar as an absolute overlay (no layout push) */}
           {/* Center sticky progress bar as an absolute overlay (no layout push) */}
           <div className="hidden md:block pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 h-full">
-            <div
-              className="
-                sticky 
-                top-16 md:top-20
-                 [height:calc(100dvh_+_12rem)] md:[height:calc(100dvh_+_47rem)]
-                w-[4px]
-                bg-white/10
-                rounded-full
-                overflow-hidden
-              "
-            >
+           <div className="sticky top-16 md:top-20 h-rail w-[4px] bg-white/10 rounded-full overflow-hidden" >
+
 
               <div
                 ref={trackRef}

@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
+@layer utilities {
+  .h-rail { height: calc(100dvh + 12rem); }
+  @media (min-width: 768px) {
+    .h-rail { height: calc(100dvh + 47rem); }
+  }
+}
+
+
 @layer base {
   @font-face {
     font-family: "aeonik";
