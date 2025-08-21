@@ -258,15 +258,16 @@ export default function About() {
           <div className="hidden md:block pointer-events-none absolute left-1/2 top-0 -translate-x-1/2 h-full">
             <div
               className="
-              sticky 
-              top-16 md:top-20
-              h-[calc(100vh+12rem)] md:h-[calc(100vh+47rem)]
-              w-[4px]
-              bg-white/10
-              rounded-full
-              overflow-hidden
-            "
+                sticky 
+                top-16 md:top-20
+                h-[calc(100vh_+_12rem)] md:h-[calc(100vh_+_47rem)]
+                w-[4px]
+                bg-white/10
+                rounded-full
+                overflow-hidden
+              "
             >
+
               <div
                 ref={trackRef}
                 className="w-full h-full origin-top scale-y-0 bg-gradient-to-b from-[#ff28d5] via-[#a855f7] to-[#3b82f6]"
