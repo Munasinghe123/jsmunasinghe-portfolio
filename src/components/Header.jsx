@@ -6,7 +6,7 @@ const NAV = [
     { label: "About", id: "about" },
     { label: "Tech Stack", id: "tech" },
     { label: "Projects", id: "projects" },
-    { label: "Contact", id: "contact" },
+   
 ]
 
 export default function Header() {
